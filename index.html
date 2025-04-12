@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <section class="app-container">
+    <h1>Text to Morse Code</h1>
+    <textarea id="inputText" placeholder="Enter Your Text..." rows="4"></textarea>
+
+    <div class="buttons">
+      <button onclick="convertToMorse()">Convert</button>
+      <button onclick="playMorse()">🔊 Play</button>
+    </div>
+
+    <h2>📡 Morse Output</h2>
+    <textarea id="morseCodeOutput" readonly rows="4"></textarea>
+
+    <footer>
+      Made with 💚 by Ziad Abuzayyad
+    </footer>
+    <script src="js.js"></script>
+  </section>
+</body>
+</html>
